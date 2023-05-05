@@ -1,0 +1,40 @@
+body {
+	background-color: #E8DCD4;
+	font-family: verdana;
+	margin: 100px;
+}
+
+h1 {
+	color: #4F4943;
+	text-align: center;
+	font-size: 72px;
+}
+
+h2 {
+	color: #8E8277;
+	font-size: 22px;
+	text-align: center;
+}
+
+p {
+	color: #4F4943;
+	font-size: 16px;
+}
+
+div {
+	background-color: #C2DBBF;
+	border: 8px solid #A1B69E;
+	padding: 15px;
+	width: 70%;
+	margin: auto;
+}
+
+img {
+	max-width: 65%;
+	height: auto;
+}
+
+ol {
+	color: #4F4943;
+	font-size: 16px;
+}
