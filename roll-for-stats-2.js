@@ -17,17 +17,17 @@ function d6() {
 // rolls a stat (and prints the stat block to the console) 'num' times
 function rollStat(num) {
     for (let x = 1; x <= num; x++) {
-        console.log("---------------------------")
+        console.log(`---------------------------`)
         let array = [d6(), d6(), d6(), d6()]
-        console.log("You rolled:          [" + array + "]")
+        console.log(`You rolled:           ${array}`)
         let min = Math.min.apply(Math, array)
-        console.log("(Minimum roll was " + min + ")")
+        console.log(`Minimum roll was ${min}`)
         let sum = 0
         for (let i = 0; i < array.length; i++) {
             sum += array[i]
         }
         sum -= min
-        console.log("Your score and mod:    " + sum + " (" + getModifier(sum) + ")")
+        console.log(`Your score and mod:   ${sum} (${getModifier(sum)})`)
     }
 }
 

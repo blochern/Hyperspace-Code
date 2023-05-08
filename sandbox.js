@@ -1,6 +1,6 @@
 
 
-let numberString = ""
+let numberString = "1234abcd"
 let number = Number.parseInt(numberString)
 
 if (isNaN(number) || numberString.length != number.toString().length) {
